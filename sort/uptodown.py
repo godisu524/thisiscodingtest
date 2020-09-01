@@ -5,4 +5,5 @@ for i in range(n):
 #reversed 아니고 reverse
 numbers.sort(reverse=True)
 
+
 print(numbers)
