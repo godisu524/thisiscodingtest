@@ -26,3 +26,27 @@ def check(new_lock):
 string = "???"
 if string.isalpha():
     print("yes")
+
+
+
+
+#방향확인시
+#     상  우  하  좌
+dx = [-1, 0, 1, 0]
+dy = [0, 1, 0, -1]
+
+
+#중복순열
+from itertools import product
+n = 4
+print(list(product(['+','-','*','/'], repeat=(n-1))))
+
+
+from bisect import bisect_left, bisect_right
+
+def count_range(array,x,y):
+    right = bisect_right(array,y)
+    left = bisect_left(array,x)
+    return right - left
+
+

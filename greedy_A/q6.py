@@ -13,7 +13,7 @@ while k!=0:
         del food_times[i]
         continue
     i+=1
-print(food_times[i])
+print(i-1)
 
     
         
