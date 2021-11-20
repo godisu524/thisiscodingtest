@@ -22,7 +22,7 @@ def solution(arr, k):
             arr[temps[-1][0]], arr[temps[-1][1]] = arr[temps[-1][1]], arr[temps[-1][0]]
             answer+=1
         #arr[j], arr[j+kk] = arr[j+kk], arr[j]
-            
+                
         
             
 
